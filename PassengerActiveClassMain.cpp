@@ -1,4 +1,4 @@
-#include "C:\RTExamples\CPEN333_Assignment1\IO\PassengerActiveClass.h"
+#include "C:\RTExamples\Duplex_Elevator_System\IO\PassengerActiveClass.h"
 #include <ctime>
 CPipe  pipe2("passengercmd", 1024);
 struct passengerData activeClassData;

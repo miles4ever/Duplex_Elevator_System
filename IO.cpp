@@ -1,6 +1,6 @@
 #include "C:\RTExamples\rt.h"
-#include "C:\RTExamples\CPEN333_Assignment1\Dispatcher\Monitor.h"
-#include "C:\RTExamples\CPEN333_Assignment1\IO\PassengerActiveClass.h"
+#include "C:\RTExamples\Duplex_Elevator_System\Dispatcher\Monitor.h"
+#include "C:\RTExamples\Duplex_Elevator_System\IO\PassengerActiveClass.h"
 #include <stdio.h>
 
 ElevatorStatus Elevator_1_Status;

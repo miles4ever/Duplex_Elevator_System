@@ -1,5 +1,5 @@
 #include "C:\RTExamples\rt.h"
-#include "C:\RTExamples\CPEN333_Assignment1\Dispatcher\Monitor.h"
+#include "C:\RTExamples\Dispatcher\Monitor.h"
 
 ElevatorStatus status = { 0, 0, 0, {0,0,0,0,0,0,0,0,0,0}, 0, 0, 0 , 0,0 };
 UINT  Message;

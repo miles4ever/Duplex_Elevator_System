@@ -1,5 +1,5 @@
 #include "C:\RTExamples\rt.h"
-#include "C:\RTExamples\CPEN333_Assignment1\Dispatcher\Monitor.h"
+#include "C:\RTExamples\Dispatcher\Monitor.h"
 #include <stdio.h>
 #include <iostream>
 using namespace std;
@@ -7,17 +7,17 @@ using namespace std;
 
 
 //Create Child Processes
-CProcess child1("C:\\RTExamples\\CPEN333_Assignment1\\Debug\\Elevator1.exe",
+CProcess child1("C:\\RTExamples\\Duplex_Elevator_System\\Debug\\Elevator1.exe",
 	NORMAL_PRIORITY_CLASS,
 	OWN_WINDOW,
 	ACTIVE
 );
-CProcess child2("C:\\RTExamples\\CPEN333_Assignment1\\Debug\\Elevator2.exe",
+CProcess child2("C:\\RTExamples\\Duplex_Elevator_System\\Debug\\Elevator2.exe",
 	NORMAL_PRIORITY_CLASS,
 	OWN_WINDOW,
 	ACTIVE
 );
-CProcess child3("C:\\RTExamples\\CPEN333_Assignment1\\Debug\\IO.exe",
+CProcess child3("C:\\RTExamples\\Duplex_Elevator_System\\Debug\\IO.exe",
 	NORMAL_PRIORITY_CLASS,
 	OWN_WINDOW,
 	ACTIVE
@@ -155,17 +155,17 @@ int main(void) {
 	//Create Child Processes
 	/*
 	cout << "Creating Child Processes...\n";
-	CProcess child1("C:\\RTExamples\\CPEN333_Assignment1\\Debug\\Elevator1.exe",
+	CProcess child1("C:\\RTExamples\\Duplex_Elevator_System\\Debug\\Elevator1.exe",
 		NORMAL_PRIORITY_CLASS,
 		OWN_WINDOW,
 		ACTIVE
 	);
-	CProcess child2("C:\\RTExamples\\CPEN333_Assignment1\\Debug\\Elevator2.exe",
+	CProcess child2("C:\\RTExamples\\Duplex_Elevator_System\\Debug\\Elevator2.exe",
 		NORMAL_PRIORITY_CLASS,
 		OWN_WINDOW,
 		ACTIVE
 	);
-	CProcess child3("C:\\RTExamples\\CPEN333_Assignment1\\Debug\\IO.exe",
+	CProcess child3("C:\\RTExamples\\Duplex_Elevator_System\\Debug\\IO.exe",
 		NORMAL_PRIORITY_CLASS,
 		OWN_WINDOW,
 		ACTIVE
